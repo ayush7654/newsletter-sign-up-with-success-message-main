@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Roboto:ital,wght@0,700;1,400&display=swap');
+body{
+    position: relative;
+    bottom: 125px;
+    border: 0px solid;
+    height:80%;
+    margin:0;
+    padding: 50px; 
+    font-family: 'Roboto', sans-serif;
+    margin-top: 250px;
+}
+img{
+    transform: scale(8);
+    padding: 80px;
+}
+h1{
+    font-size: 100px;
+}
+p{
+    color:grey;
+    
+}
+span{
+    color:black;
+}
+button{
+    height:120px;
+    width: 100%;
+    margin-top: 500px;
+    border-radius:20px;
+    background-color: hsl(234, 29%, 20%);
+    color:white;   
+    cursor:pointer;
+    font-size: 40px;
+    
+}
+
+@media(min-width:990px){
+    html{
+        background-color: hsl(235, 18%, 27%);
+        padding-bottom:250px;
+    }
+    body{
+        margin:250;
+        background-color: white;
+        padding:50px;
+        margin-left: 500px;
+        width: 30%;
+        height: 420px;
+        border-radius: 30px;
+        
+    }
+    .sucessPage{
+        height:400px;
+    }
+    h1{
+        font-size: 50px;
+    }
+    img{
+        transform: scale(3);
+        padding:20px;
+    }
+    button{
+        height:60px;
+        width:100%;
+        margin-top:30px;
+        border-radius: 10px;
+        background-color: hsl(234, 29%, 20%);
+        font-size: 20px;
+        cursor:pointer;
+    }
+    #DismissButton:hover {
+        background-color: hsl(4, 100%, 67%);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+      }
+    p{
+        font-size: 18px;
+    }
+}
+   
